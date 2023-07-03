@@ -80,19 +80,52 @@ button {
     align-items: center;
     cursor: pointer;
 }
-.slider__btn-expand::before{
+
+.slider__btn-expand::before {
     content: url(../images/expand.svg);
-    
+
 }
-.click.slider__btn-expand::before{
+
+.click.slider__btn-expand::before {
     transform: rotate(180deg);
 }
+
 .slider__icons-list.click {
     max-height: 100%;
 }
-@media(max-width: 768px){
+
+.displayNone {
+    display: none;
+}
+
+/*  swiper castom  */
+.swiper-slide{
+    max-width: 270px;
+}
+@media(max-width: 768px) {
+    .swiper-slide {
+        flex-shrink: 1;
+    }
+}
+
+@media(min-width: 768px){
+.swiper-pagination{
+    display: none;
+}
+
+}
+
+/*  swiper castom  end  */
+@media(max-width: 768px) {
 
     .slider__icons-list {
         max-height: 80px;
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow: visible;
+    }
+
+    .slider__btn-expand {
+        display: none;
     }
 }

@@ -5,70 +5,77 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/styles/fonts.css">
-        <link rel="stylesheet" href="assets/styles/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="assets/styles/style.css">
+        
         <title>Document</title>
 </head>
 
 <body>
         <section class="slider">
 
-                <div class="slider__icons">
+                <div class="slider__icons swiper">
                         <h2 class="slider__title">Ремонт техники различных брендов</h2>
-                        <ul class="slider__icons-list">
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/Lenovo.svg" alt="Lenovo">
+                        <ul class="slider__icons-list swiper-wrapper">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/Lenovo.svg" alt="Lenovo">
                                                 <div class="slider__btn slider__btn--background "></div>
                                         </a></li>
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/Samsung.svg" alt="Samsung">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/Samsung.svg"
+                                                        alt="Samsung">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a></li>
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/apple.svg" alt="Apple">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/apple.svg" alt="Apple">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a></li>
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/ViewSonic.svg" alt="ViewSonic">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/ViewSonic.svg"
+                                                        alt="ViewSonic">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a></li>
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/Bosch.svg" alt="Bosch">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/Bosch.svg" alt="Bosch">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a></li>
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/hp.svg" alt="hp">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/hp.svg" alt="hp">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a>
                                 </li>
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/acer.svg" alt="acer">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/acer.svg" alt="acer">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a></li>
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/sony.svg" alt="Sony">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/sony.svg" alt="Sony">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a></li>
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/Lenovo.svg" alt="Lenovo">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/Lenovo.svg" alt="Lenovo">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a></li>
-                                <li><a class="slider__icon slider__icon--background" href=""><img class="slider__img"
-                                                        src="assets/images/Samsung.svg" alt="Samsung">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href=""><img
+                                                        class="slider__img" src="assets/images/Samsung.svg"
+                                                        alt="Samsung">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a></li>
-                                <li><a class="slider__icon slider__icon--background" href="#"><img class="slider__img"
-                                                        src="assets/images/apple.svg" alt="Apple">
+                                <li class="swiper-slide"><a class="slider__icon slider__icon--background" href="#"><img
+                                                        class="slider__img" src="assets/images/apple.svg" alt="Apple">
                                                 <div class="slider__btn slider__btn--background"></div>
                                         </a>
 
                                 </li>
                         </ul>
+                        <div class="swiper-pagination pagination"></div>
                         <button class="slider__btn-expand">Показать все</button>
                 </div>
         </section>
-        <script src="assets/app/app.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        
+        <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script defer src="assets/app/app.js"></script>
+
 </body>
 
 </html>
