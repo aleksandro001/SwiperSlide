@@ -51,24 +51,33 @@ button {
   background-color: #fff;
   background-repeat: no-repeat;
   background-position: 10px 50%, 190px 50%;
-  margin: 10px;
+  display: inline-block;
+}
+.swiper-slide {
+  height: 72px;
+  margin: 5px;
 }
 
 .slide__icon--lenovo {
-  background-image: url(../assets/images/Lenovo.svg), url(../assets/images/go.svg);
+  background-image: url(../assets/images/Lenovo.svg),
+    url(../assets/images/go.svg);
 }
 
 .slide__icon--samsung {
-  background-image: url(../assets/images/Samsung.svg), url(../assets/images/go.svg);
+  background-image: url(../assets/images/Samsung.svg),
+    url(../assets/images/go.svg);
 }
 .slide__icon--apple {
-  background-image: url(../assets/images/apple.svg), url(../assets/images/go.svg);
+  background-image: url(../assets/images/apple.svg),
+    url(../assets/images/go.svg);
 }
 .slide__icon--viewSonic {
-  background-image: url(../assets/images/ViewSonic.svg), url(../assets/images/go.svg);
+  background-image: url(../assets/images/ViewSonic.svg),
+    url(../assets/images/go.svg);
 }
 .slide__icon--bosch {
-  background-image: url(../assets/images/Bosch.svg), url(../assets/images/go.svg);
+  background-image: url(../assets/images/Bosch.svg),
+    url(../assets/images/go.svg);
 }
 .slide__icon--hp {
   background-image: url(../assets/images/hp.svg), url(../assets/images/go.svg);
@@ -92,7 +101,7 @@ button {
   .slide__icons {
     display: flex;
     flex-wrap: wrap;
-    height: 180px;
+    height: 165px;
   }
   .slider__btn-expand {
     color: #1b1c21;
